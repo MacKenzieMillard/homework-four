@@ -41,7 +41,7 @@ p {
 nav {
   position: fixed;
   height: 90px;
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -88,7 +88,7 @@ nav .links a {
 }
 
 .home .hero {
-  width: 1280px;
+  max-width: 1280px;
   height: 500px;
   margin: 0 auto;
 }
@@ -473,6 +473,45 @@ nav .links a {
   border: none;
 }
 
+@media only screen and (max-width: 760px) {
+  .promoTrips {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .bookingForm .booking-wrapper form .textInputs .firstFour .topTwo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bookingForm .booking-wrapper form .textInputs .firstFour .bottomTwo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bookingForm .booking-wrapper form .textInputs .check {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bookingForm .booking-wrapper form .textInputs .numbers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bookingForm .booking-wrapper form .textInputs .comments {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 footer {
   display: -webkit-box;
   display: -ms-flexbox;

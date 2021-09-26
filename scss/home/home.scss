@@ -1,6 +1,6 @@
 .home {
   .hero {
-    width: 1280px;
+    max-width: 1280px;
     height: 500px;
     margin: 0 auto;
 
@@ -353,6 +353,38 @@
             height: 60px;
             width: 100%;
             @include site-button(30px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .promoTrips {
+    flex-direction: column;
+  }
+
+  .bookingForm {
+    .booking-wrapper {
+      form {
+        .textInputs {
+          .firstFour {
+            .topTwo {
+              flex-direction: column;
+            }
+            .bottomTwo {
+              flex-direction: column;
+            }
+          }
+          .check {
+            flex-direction: column;
+          }
+          .numbers {
+            flex-direction: column;
+          }
+          .comments {
+            flex-direction: column;
           }
         }
       }
