@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #79addc;
+
+  .footerLogo {
+  }
+
+  .copyright {
+    color: white;
+  }
+
+  .social_media {
+    width: 33%;
+    color: white;
+    img {
+      width: 22px;
+    }
+  }
+}
